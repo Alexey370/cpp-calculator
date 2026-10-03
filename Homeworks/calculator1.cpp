@@ -64,7 +64,7 @@ int main() {
   assert(Diff(a, b) == -2 && "Ошибка вычитания int");
   assert(Multiply(a, b) == 35 && "Ошибка умножения int");
   assert(Division(10, 3) == 3 && "Ошибка целочисленного деления");
-  assert(RemainderDiv(10, 3) == 1 && "Ошибка остатка от деления int");
+  assert(RemainderDiv(10, 3) == 1 && "Ошибка остатка от деления int ");
 
   assert(Add(a1, b1) == 18.0 && "Ошибка сложения double");
   assert(Division(a1, b1) == 5.0 && "Ошибка деления double");
